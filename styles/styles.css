@@ -1,7 +1,12 @@
 body {
     display: flex;
     min-height: 100vh;
-    width: 100%;
+    width: 100vw;
+    max-width: 100%;  
+}
+
+#btn-mobile-sidebar {
+    display: none;
 }
 
 #sidebar {
@@ -9,7 +14,7 @@ body {
     align-items: flex-start;
     background-color: rgb(146, 215, 255);
     padding: 1rem;
-    padding-right: 4rem;
+    padding-right: 3.5rem;
 }
 
 #sidebar-content {
@@ -27,8 +32,8 @@ body {
 
 #title-dash > img {
     margin-right: 5px;
-    width: 50px;
-    height: 50px;
+    width: 4rem;
+    height: 4rem;
 }
 
 #sidebar-content > div {
@@ -40,11 +45,13 @@ body {
     margin-left: .5rem;
     margin-bottom: 1rem;
     font-weight: 700;
+    font-size: 1.4rem;
 }
 
 .sidebar-icon {
-    margin-right: 15px;
-    width: 20px;
+    margin-right: 1.7rem;
+    width: 2rem;
+    height: 2rem;
 }
 
 #nav {
@@ -85,33 +92,48 @@ body {
 #search-btn {
     background: none;
     border: none;
-    width: 25px;
-    height: 25px;
+    width: 2rem;
+    height: 2rem;
 }
 
 #top-user-info {
     width: 30%;
     display: flex;
     margin-right: 2rem;
-    justify-content: flex-end;
+    justify-items: flex-end;
+    justify-content: space-between;
     align-items: center;
 }
 
-#user-btn {
-    border: none;
-    height: 35px;
-    width: 35px;
-    border-radius: 2rem;
-    background-color: orange;
+#top-user-info > h4 {
+    font-size: 1.5rem;
+}
+
+#user-nav-btn {
+    background-image: url('../assets/fargila_pic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     margin-left: 2rem;
     margin-right: 2rem;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.user-btn {
+    border: none;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    background-color: orange;
+    margin-right: 1rem;
 }
 
 #user-notif {
     background: none;
     border: none;
-    width: 25px;
-    height: 25px;
+    width: 2rem;
+    height: 2rem;
 }
 
 #nav-bot {
@@ -131,18 +153,21 @@ body {
     border: none;
     border-radius: 1.5rem;
     background-color: rgb(146, 215, 255);
-    height: 40px;
-    width: 100px;
-    font-size: 17px;
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.1em;
     margin-left: 2rem;
     font-weight: 800;
 }
 
 .user-icon {
-    background-color: orange;
-    width: 60px;
-    height: 60px;
-    border-radius: 2rem;
+    background-image: url('../assets/fargila_pic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
     margin-right: 1rem;
 }
 
@@ -151,6 +176,10 @@ body {
     align-items: center;
     justify-content: flex-start;
     width: 60%;
+}
+
+#user-gretting > div > h1 {
+    margin-top: 3%;
 }
 
 #main {
@@ -185,12 +214,8 @@ body {
     'card card'
     'card card'
     'card card';
-    gap: 20px;
+    gap: 1rem;
     height: 100%;
-}
-
-#container-side-info {
-    grid-template: side-content;
 }
 
 .project-card {
@@ -207,40 +232,47 @@ body {
 .main-content-card {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 2rem;
 }
 
-.card-text {
-    position: relative;
+.main-content-card > h3 {
+    margin-bottom: 1rem;
 }
 
-.card-text > div > h3 {
-    margin-bottom: 5px;
+.card-text {
+    display: flex;
+    position: relative;
+    overflow-y: scroll;
+    scrollbar-width: none;
 }
+
 
 .orange-line {
     display: block;
     background-color: orange;
-    width: 10px;
-    height: 20rem;
+    width: .5rem;
+    height: 200rem;
     position: absolute;
 }
 
 .card-btns {
     display: flex;
-    justify-content: flex-end;
+    align-self: self-end;
+    margin-top: .6rem;
+    justify-items: flex-end;
 }
 
 .card-btns > button {
     background: none;
-    width: 20px;
-    height: 20px;
+    width: 1.6rem;
+    height: 1.6rem;
     margin-left: 2rem;
     border: none;
 }
 
 #container-side-info {
+    grid-template: side-content;
     display: grid;
     grid-template-rows: 50% 50%;
     margin-left: 5%;
@@ -283,4 +315,32 @@ body {
     align-items: center;
     width: 100%;
     margin-bottom: 2rem;
+}
+
+#user-1 {
+    background-image: url('../assets/user1_pic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#user-fargila {
+    background-image: url('../assets/fargila_pic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#user-2 {
+    background-image: url('../assets/user2_pic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#user-3 {
+    background-image: url('../assets/user3_pic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
 }

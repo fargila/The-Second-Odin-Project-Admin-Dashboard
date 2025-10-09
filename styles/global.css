@@ -19,3 +19,8 @@ a {
 p {
     color: gray;
 }
+
+hr {
+    border: 1px solid rgb(230, 230, 230);
+    width: 100%;
+}
