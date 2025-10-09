@@ -23,6 +23,11 @@
         opacity: 80%;
     }
 
+    #search-btn {
+        width: 3rem;
+        height: 3rem;
+    }
+
     #btn-mobile-sidebar > img {
         width: 2rem;
     }
@@ -101,13 +106,14 @@
     }
 
     #user-nav-btn {
+        margin-right: 0;
         width: 4rem;
         height: 4rem;
     }
  
     #user-notif {
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 2rem;
+        height: 2rem;
      }
 
     #nav-btns {
