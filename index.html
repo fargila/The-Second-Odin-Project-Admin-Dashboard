@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="sidebar">
+        <div id="sidebar-content">
+            <div id="title-dash">
+                <img src="./assets/chart-tree.svg" alt="Logo">
+                <h1>Dashboard</h1>
+            </div>
+            <div>
+                <div class="link">
+                    <img src="./assets/home.svg" alt="Home" class="sidebar-icon">
+
+                    <a href="#">Home</a>
+                </div>
+                <div class="link">
+                    <img src="./assets/card-account-details.svg" alt="Profile" class="sidebar-icon">
+                    <a href="#">Profile</a>
+                </div>
+                <div class="link">
+                    <img src="./assets/message.svg" alt="Messages" class="sidebar-icon">
+                    <a href="#">Messages</a>
+                </div>
+                <div class="link">
+                    <img src="./assets/clock-time-four.svg" alt="History" class="sidebar-icon">
+                    <a href="#">History</a>
+                </div>
+                <div class="link">
+                    <img src="./assets/note-multiple.svg" alt="Tasks" class="sidebar-icon">
+                    <a href="#">Tasks</a>
+                </div>
+                <div class="link">
+                    <img src="./assets/account-group.svg" alt="Communities" class="sidebar-icon">
+                    <a href="#">Communities</a>
+                </div>
+            </div>
+            <div>
+                <div class="link">
+                    <img src="./assets/cog.svg" alt="Settings" class="sidebar-icon">
+                    <a href="#">Settings</a>
+                </div>
+                <div class="link">
+                    <img src="./assets/help-box.svg" alt="Suport" class="sidebar-icon">
+                    <a href="#">Suport</a>
+                </div>
+                <div class="link">
+                    <img src="./assets/shield-check.svg" alt="Privacy" class="sidebar-icon">
+                    <a href="#">Privacy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <nav id="nav">
+            <div id="nav-top">
+                <div id="search-input-div">
+                    <button id="search-btn"><img src="./assets/magnify.svg" alt="Search"></button>
+                    <input type="text">
+                </div>
+                <div id="top-user-info">
+                    <button id="user-notif"><img src="./assets/bell-ring-outline.svg" alt="Notifications"></button>
+                    <button id="user-btn"></button>
+                    <h4>User Name</h4>
+                </div>
+            </div>
+            <div id="nav-bot">
+                <div id="user-gretting">
+                    <div class="user-icon"></div>
+                    <div>
+                        <h4>Hi there,</h4>
+                        <h1>User Name (@userName123)</h1>
+                    </div>
+                </div>
+                <div id="nav-btns">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </div>
+        </nav>
+        <div id="content-container">
+            <div id="main-container">
+                <h2>Your projects</h2>
+                <div id="projects-container">
+                    <div class="project-card">
+                        <div class="orange-line"></div>
+                        <div class="main-content-card">
+                            <div class="card-text">
+                                <div>
+                                    <h3>Super Cool Project</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Etiam eget ligula eu lectus lobortis condimentum.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-btns">
+                                <button><img src="./assets/star-plus-outline.svg" alt="Favorites"></button>
+                                <button><img src="./assets/eye-plus-outline.svg" alt="See more"></button>
+                                <button><img src="./assets/vector-polyline.svg" alt="Share?"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="orange-line"></div>
+                        <div class="main-content-card">
+                            <div class="card-text">
+                                <div>
+                                    <h3>Less Cool Project</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Etiam eget ligula eu lectus lobortis condimentum.
+                                        Aliquam nonummy auctor massa. Pellentesque habitant morbi
+                                        tristique senectus et netus et malesuada fames ac turpis
+                                        egestas. Nulla at risus. Quisque purus magna, auctor et,
+                                        sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-btns">
+                                <button><img src="./assets/star-plus-outline.svg" alt="Favorites"></button>
+                                <button><img src="./assets/eye-plus-outline.svg" alt="See more"></button>
+                                <button><img src="./assets/vector-polyline.svg" alt="Share?"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="orange-line"></div>
+                        <div class="main-content-card">
+                            <div class="card-text">
+                                <div>
+                                    <h3>Impossible App</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-btns">
+                                <button><img src="./assets/star-plus-outline.svg" alt="Favorites"></button>
+                                <button><img src="./assets/eye-plus-outline.svg" alt="See more"></button>
+                                <button><img src="./assets/vector-polyline.svg" alt="Share?"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="orange-line"></div>
+                        <div class="main-content-card">
+                            <div class="card-text">
+                                <div>
+                                    <h3>Easy Peasy app</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Etiam eget ligula eu lectus lobortis condimentum.
+                                        Aliquam nonummy auctor massa. Pellentesque habitant morbi
+                                        tristique senectus et netus et malesuada fames ac turpis
+                                        egestas.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-btns">
+                                <button><img src="./assets/star-plus-outline.svg" alt="Favorites"></button>
+                                <button><img src="./assets/eye-plus-outline.svg" alt="See more"></button>
+                                <button><img src="./assets/vector-polyline.svg" alt="Share?"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="orange-line"></div>
+                        <div class="main-content-card">
+                            <div class="card-text">
+                                <div>
+                                    <h3>Ad Blocker</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Etiam eget ligula eu lectus lobortis condimentum.
+                                        Aliquam nonummy auctor massa. Pellentesque habitant morbi
+                                        tristique senectus et netus et malesuada fames ac turpis
+                                        egestas. Nulla at risus.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-btns">
+                                <button><img src="./assets/star-plus-outline.svg" alt="Favorites"></button>
+                                <button><img src="./assets/eye-plus-outline.svg" alt="See more"></button>
+                                <button><img src="./assets/vector-polyline.svg" alt="Share?"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="orange-line"></div>
+                        <div class="main-content-card">
+                            <div class="card-text">
+                                <div>
+                                    <h3>Money Maker</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Etiam eget ligula eu lectus lobortis condimentum.
+                                        Aliquam nonummy auctor massa.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-btns">
+                                <button><img src="./assets/star-plus-outline.svg" alt="Favorites"></button>
+                                <button><img src="./assets/eye-plus-outline.svg" alt="See more"></button>
+                                <button><img src="./assets/vector-polyline.svg" alt="Share?"></button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="container-side-info">
+                <div id="ann-card" class="side-card">
+                    <h2>Announcements</h2>
+                    <div class="side-card-content">
+                        <div>
+                            <h3>Site Maintenance</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Etiam eget ligula eu lectus lobortis condimentum.
+                                Aliquam nonummy auctor massa.
+                            </p>
+                        </div>
+                        <hr>
+                        <div>
+                            <h3>Community Share Day</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Etiam eget ligula eu lectus lobortis condimentum.
+                                Aliquam nonummy auctor massa.
+                            </p>
+                        </div>
+                        <hr>
+                        <div>
+                            <h3>Update Privacy Policy</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Etiam eget ligula eu lectus lobortis condimentum.
+                                Aliquam nonummy auctor massa.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="trending-card" class="side-card">
+                    <h2>Trending</h2>
+                    <div class="side-card-content">
+                        <div class="users">
+                            <div class="user-icon"></div>
+                            <div>
+                                <h4>@tegan</h4>
+                                <p>World Peace Builder</p>
+                            </div>
+                        </div>
+                        <div class="users">
+                            <div class="user-icon"></div>
+                            <div>
+                                <h4>@userName123</h4>
+                                <p>Super Cool Project</p>
+                            </div>
+                        </div>
+                        <div class="users">
+                            <div class="user-icon"></div>
+                            <div>
+                                <h4>@kendall</h4>
+                                <p>Life Changing App</p>
+                            </div>
+                        </div>
+                        <div class="users">
+                            <div class="user-icon"></div>
+                            <div>
+                                <h4>@alex</h4>
+                                <p>No Traffic Maker</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+</body>
+</html>
