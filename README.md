@@ -20,15 +20,15 @@ Welcome to the **Admin Dashboard**, a responsive web interface built as part of 
 - **Announcements Section**: Highlights site updates, community events, and policy changes.
 - **Trending Panel**: Displays popular users and projects in the community.
 
-## 📱 View Modes
+## 🖼️ View Modes
 
 ### 📱 Phones
 <img src="./assets/phone_view.jpeg" alt="Mobile Version" width="300"/>
 
-### 📱 Tablets
+### 📱📲 Tablets
 <img src="./assets/tablet_view.jpeg" alt="Large Mobile Version" width="400"/>
 
-### 📱 Personal Computers
+### 🖥️ Personal Computers
 <img src="./assets/desktop_view.jpeg" alt="Desktop Version" width="500"/>
 
 ## 🛠️ Tech Stack
