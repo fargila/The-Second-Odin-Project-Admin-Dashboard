@@ -46,6 +46,8 @@ body {
     margin-bottom: 1rem;
     font-weight: 700;
     font-size: 1.4rem;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
 .sidebar-icon {
